@@ -1,0 +1,28 @@
+{
+  "name": "cy_task",
+  "version": "1.0.0",
+  "description": "Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnaoe/TASK13.git"
+  },
+  "keywords": [
+    "cypress",
+    "task",
+    "js"
+  ],
+  "author": "Jonas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johnaoe/TASK13/issues"
+  },
+  "homepage": "https://github.com/Johnaoe/TASK13#readme",
+  "devDependencies": {
+    "cypress": "^10.8.0"
+  }
+}
