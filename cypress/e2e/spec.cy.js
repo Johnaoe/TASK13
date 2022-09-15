@@ -9,19 +9,19 @@ describe('e2e', () => {
 })
 
 describe('e2e', () => {
-  it('BTC Last 24 hours change was positive', () => {
+  it('BTC Last week change was positive', () => {
     cy.visit('https://spectrocoin.com/en/bitcoin-price-rates.html')
-
-    cy.get('[data-cy="last-24"]')
+      
+    cy.get('[data-cy="last-week"]')
       .contains('+')
   })
 })
 
 describe('e2e', () => {
-  it('BTC Last week change was positive', () => {
+  it('BTC Last 24 hours change was positive', () => {
     cy.visit('https://spectrocoin.com/en/bitcoin-price-rates.html')
-      
-    cy.get('[data-cy="last-week"]')
+
+    cy.get('[data-cy="last-24"]')
       .contains('+')
   })
 })
