@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Johnaoe/TASK13.git"
+    "url": "git+https://github.com/Johnaoe/TASK14.git"
   },
   "keywords": [
     "cypress",
@@ -19,9 +19,9 @@
   "author": "Jonas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Johnaoe/TASK13/issues"
+    "url": "https://github.com/Johnaoe/TASK14/issues"
   },
-  "homepage": "https://github.com/Johnaoe/TASK13#readme",
+  "homepage": "https://github.com/Johnaoe/TASK14#readme",
   "devDependencies": {
     "cypress": "^10.8.0"
   }

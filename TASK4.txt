@@ -1,0 +1,10 @@
+4.1 Create a test plan for upcoming function described bellow:
+“As an user which has an active debit card, I am inactive on the web for 5 minutes, I want to be logged out from the system, so system should automatically log me out from the web”
+
+TEST PLAN
+
+Test scenario id: TEST_CASE_SCENARIO_01
+Test scenario: System should automatically loggout user after 5 mins.
+Pre-conditions: User logged in with active debit card.
+Test execution: Create user with valid debit card, login to this account and for 5 mins make no actions.
+Expected outcome: User after 5 min inactivity is logged out.

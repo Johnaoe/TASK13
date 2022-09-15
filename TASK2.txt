@@ -1,0 +1,31 @@
+2. Find bugs in given UI examples
+
+A
+
+a.1 "COPY ADDRESS" and "GET NEW ADDRESS" is not aligned
+a.2 "Your latest transactions" table fields has:
+a.2.1 In "Date" column time format - seconds are missing in the first line
+a.2.2 In "Amount" column currency of the first transcation is missing
+a.2.3 "Statuss" column name is a typo
+a.2.4 "Statuss" column second line has overlaping value
+
+a.3 QR code opens not a Wallet address
+a.4 Value "XAU" has a different decimal value then other crypto values
+a.5 Coin "DASH" is seen twice with value 0.0000000
+a.6 Decimal point is different in "Current price"  
+a.7 Ticker "Ether" != "Ethereum"
+
+B
+b.1 "DASH" wallet is not aligned
+b.2 "GBP" fied is missing from wallet currency name
+b.3 "GEL" has empty currency name field of "EUR123wetwetwtw.."
+b.4 Decimal point is not in the right place for currencies: "XAU", "EUR123we..", "GEL"
+b.5 "XAU" Has a icon of wallet missing (Could say as same as "GEL" but more context needed)
+
+b.6 Not clear why two fields "BTC" and "DASH" are lit as if cursor was dragged or clicked
+b.7 "DASH" has missing "equvalent to" and currency fields
+b.8 "XAU" balance info has a BGP icon instead of XAU
+b.9 Bracket ")" should not be there in XAU balance
+b.10 EUR has a different value then in a wallets EUR value 0.01 EUR != 0.1 EUR
+b.11 in "GEL" balance "(GEL)" is not expected
+b.12 Since "GEL" balance is zero, not sure if "equivalent to" and currency fields are expceted or not (may be feature)

@@ -1,0 +1,26 @@
+5. Create an API test for this endpoint: GET
+https://spectrocoin.com/scapi/ticker/usd/btc
+
+pm.test("Successful GET request", function () {
+    pm.expect(pm.response.code).to.be.oneOf([200]);
+});
+pm.test("Expect USD at .currencyFrom", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.currencyFrom).to.eql("USD");
+});
+pm.test("Response time is less than 200ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(200);
+});
+pm.test("Body matches string", function () {
+    pm.expect(pm.response.text()).to.include("currencyFrom");
+    pm.expect(pm.response.text()).to.include("currencyFromScale");
+    pm.expect(pm.response.text()).to.include("currencyTo");
+    pm.expect(pm.response.text()).to.include("currencyToScale");
+    pm.expect(pm.response.text()).to.include("last");
+    pm.expect(pm.response.text()).to.include("lastHP");
+    pm.expect(pm.response.text()).to.include("timestamp");
+    pm.expect(pm.response.text()).to.include("friendlyLast");
+});
+pm.test("Content-Type is present", function () {
+    pm.response.to.have.header("Content-Type");
+});

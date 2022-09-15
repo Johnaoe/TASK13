@@ -1,0 +1,42 @@
+3. Create bug reports for 2 bugs found in upper tasks
+
+3.1
+
+Bug: Overlaping content
+Path: Account -> Wallets
+Priority: HIGH
+Reported On: 2022-09-14
+
+Description: In "Your latest transactions" table, status column values are overlaping/displayed incorrectly
+
+Steps to Repr.:
+
+1. Login into the App.
+2. Go to "Account" -> "Wallets".
+3. Create alteast 3 transactions.
+
+Result: transaction statuses are overlaping/displayer incorrectly
+
+Expected Result: transaction table content does not overlap and text is seen as expected
+
+3.2
+
+Bug: Added wallet is displayed incorrectly 
+Path: Account -> Exchange
+Priority: HIGH
+Reported On: 2022-09-14
+
+Description: Added wallet is displayed incorrectly 
+
+Preconditions:
+1. Add at least 5 wallets of different kind
+
+Steps to Repr.:
+
+1. Login into the App.
+2. Navigate to "Account" -> "Exchange".
+3. Add additional "DASH" wallet. 
+
+Result: Newly added "DASH" wallet is not aligned with the rest of the wallets
+
+Expected Result: Wallets are displayed aligned and in order

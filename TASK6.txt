@@ -1,0 +1,13 @@
+5. With any tool of your choice (preferably cypress), create a end-to-end test (or its prototype),
+that would visit the page page https://spectrocoin.com/en/bitcoin-price-rates.html, pick a
+reference currency, select a currency from the list and check if its last 24 hours rate change
+was positive
+
+Check file --> CY_TASK/e2e/spec.cy.js
+
+With no prior experience using Cypress, this was my approach for this task:
+1. I found "BTC Last week change was positive" and "BTC Last 24 hours change was positive"
+    since it was clear how to reache these values. Made it simple by just only checking value 
+    infront of the number.
+2. Tried to reach one of the values from the data-cy="rates", but then again made it simple
+    by checking sign infront of the number.

@@ -1,0 +1,25 @@
+Write test cases to test view / function given bellow:
+
+1 Confirm that entry field validation is working:
+1.1 Bigger amount entry and validation
+1.2 Lower amount entry and validation
+1.3 Values with minuses entry and validation
+1.4 Entry of non numerical values and validation
+1.5 Confirm that when "Currency" is changed - it changes currency of this object accordingly
+
+2 If below EUR values are entry type - Repeat above
+3 If below EUR values are dependent on entry field above - confirm if this value is correct with nominal BTC value
+3.1 Confirm that when "Currency" is changed - it changes currency of this object accordingly
+4 Confirm that value "USE ALL" is the same as in wallet
+
+5 Confirm that object "USE ALL" is clickable and works as follows:
+5.1 Enters the exact amount that is written to the "BTC" field
+5.2 Double clicking or any other activities does not affect "BTC" entry field value
+5.3 Confirm that when "Currency" is changed - it changes currency of this object accordingly
+
+6 Confirm "Pay Currency" drop down options are working and can be changed to other currencies available to the user
+6.1 Confirm that currencies change accordingly to this.
+7 Confirm "Receive Currency" drop down options are working and can be changed to other currencies available to the user
+7.1 Confirm that currencies change accordingly to this.
+8 Confirm that "EXCHANGE" button is clickable and working as expected
+9 Confirm that "HISTORY" has entries and is correct
