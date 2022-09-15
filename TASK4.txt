@@ -4,7 +4,7 @@
 TEST PLAN
 
 Test scenario id: TEST_CASE_SCENARIO_01
-Test scenario: System should automatically loggout user after 5 mins.
-Pre-conditions: User logged in with active debit card.
-Test execution: Create user with valid debit card, login to this account and for 5 mins make no actions.
-Expected outcome: User after 5 min inactivity is logged out.
+Test scenario: System should automatically log out the user after 5 mins.
+Pre-conditions: User logged in with an active debit card.
+Test execution: Create user with a valid debit card, log in to this account and for 5 mins make no actions.
+Expected outcome: User, after 5 min of inactivity, is logged out.

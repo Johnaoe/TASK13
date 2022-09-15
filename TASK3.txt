@@ -15,9 +15,9 @@ Steps to Repr.:
 2. Go to "Account" -> "Wallets".
 3. Create alteast 3 transactions.
 
-Result: transaction statuses are overlaping/displayer incorrectly
+Result: transaction statuses are overlaping/displayed incorrectly
 
-Expected Result: transaction table content does not overlap and text is seen as expected
+Expected Result: transaction table content does not overlap and the text is seen as expected
 
 3.2
 
@@ -39,4 +39,4 @@ Steps to Repr.:
 
 Result: Newly added "DASH" wallet is not aligned with the rest of the wallets
 
-Expected Result: Wallets are displayed aligned and in order
+Expected Result: Wallets are aligned and in order

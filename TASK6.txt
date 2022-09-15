@@ -7,7 +7,7 @@ Check file --> CY_TASK/e2e/spec.cy.js
 
 With no prior experience using Cypress, this was my approach for this task:
 1. I found "BTC Last week change was positive" and "BTC Last 24 hours change was positive"
-    since it was clear how to reache these values. Made it simple by just only checking value 
+    since it was clear how to reach these values. Made it simple by just only checking the value 
     infront of the number.
 2. Tried to reach one of the values from the data-cy="rates", but then again made it simple
-    by checking sign infront of the number.
+    by checking the sign infront of the number.
